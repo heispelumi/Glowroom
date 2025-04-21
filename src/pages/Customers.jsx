@@ -101,20 +101,20 @@ const Customers = () => {
       {/* Customer Table */}
       <div className="overflow-x-auto bg-[#FFE4E1]  rounded-lg">
         <table className="min-w-full text-[10px] md:text-[20px] text-white">
-          <thead className="bg-pink-600 text-[10px] md:text-[15px] poppins ">
+          <thead className="bg-pink-600 text-[8px] md:text-[15px] poppins ">
             <tr>
-              <th className="px-2 md:px-4text-pink-600   font-thin py-2 text-left">Name</th>
-              <th className="px-2 md:px-4  font-thin py-2 text-left">Email</th>
-              <th className="px-2 md:px-4  font-thin py-2 text-left">Status</th>
-              <th className="px-2 md:px-4  font-thin py-2 text-left">Orders</th>
-              <th className="px-2 md:px-4  font-thin  py-2 text-left">Total Spent</th>
+              <th className="px-2 md:px-4    py-2 text-left">Name</th>
+              <th className="px-2 md:px-4  py-2 text-left">Email</th>
+              <th className="px-2 md:px-4   py-2 text-left">Status</th>
+              <th className="px-2 md:px-4   py-2 text-left">Orders</th>
+              <th className="px-2 md:px-4    py-2 text-left">Total Spent</th>
             </tr>
           </thead>
           <tbody>
             {customers.map((c, idx) => (
               <tr key={idx} className="border-t text-pink-600  border-pink-600">
-                <td className="px-2 text-[9px] md:text-[16px] md:px-4 py-2">{c.name}</td>
-                <td className="px-2 text-[9px] md:text-[16px] md:px-4 py-2">{c.email}</td>
+                <td className="px-2 text-[8px] md:text-[16px] md:px-4 py-2">{c.name}</td>
+                <td className="px-2 text-[8px] md:text-[16px] md:px-4 py-2">{c.email}</td>
                 <td className="px-2 md:px-4 py-2">
                   <span
                     className={`inline-block md:px-3 px-1.5 py-1  text-[10px] md:text-xs rounded-full ${
