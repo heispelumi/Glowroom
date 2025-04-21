@@ -48,8 +48,8 @@ const Analytics = () => {
     <div className="space-y-8 poppins  font-poppins">
       {/* Header */}
       <div className="bg-[#FFE4E1] p-6 rounded-2xl shadow">
-        <h1 className="text-3xl font-bold text-[#B3446C]">📊 Beauty Analytics</h1>
-        <p className="text-[#B3446C] mt-1 text-sm">Empowering your glam empire with data insights 💅</p>
+        <h1 className="text-[18px] md:text-[36px] font-bold text-[#B3446C]">📊 Beauty Analytics</h1>
+        <p className="text-[#B3446C] mt-1 text-[10px] md:text-[15px]">Empowering your glam empire with data insights 💅</p>
       </div>
 
       {/* Key Stats Cards */}

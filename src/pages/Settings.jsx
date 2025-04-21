@@ -5,8 +5,8 @@ const Settings = () => {
     <div className="poppins max-w-6xl mx-auto text-gray-800 space-y-12">
       {/* Pretty Header */}
       <div className="bg-[#FFE4E1] p-6 rounded-2xl shadow">
-        <h1 className="text-3xl font-bold text-[#B3446C]">⚙️ Settings</h1>
-        <p className="text-[#B3446C] mt-1 text-sm">Customize your store preferences and user experience 💫</p>
+        <h1 className="text-[18px] md:text-[36px] font-bold text-[#B3446C] mb-2 md:mb-">⚙️ Settings</h1>
+        <p className="text-[#B3446C] text-[10px] md:text-[15px] ">Customize your store preferences and user experience 💫</p>
       </div>
 
       {/* General Settings */}

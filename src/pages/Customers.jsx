@@ -36,8 +36,8 @@ const Customers = () => {
     <div className="space-y-8 poppins">
      {/* Header */}
 <div className="bg-[#FFE4E1] p-6 rounded-2xl shadow">
-  <h1 className="text-3xl font-bold text-[#B3446C]">👩‍💼 Loyal Beauties</h1>
-  <p className="text-[#B3446C] mt-1 text-sm">Get to know your cherished customers and their glow-up journey 💖</p>
+  <h1 className="text-[18px] md:text-[36px] font-bold text-[#B3446C] mb-2 md:mb-2">👩‍💼 Loyal Beauties</h1>
+  <p className="text-[#B3446C] text-[10px] md:text-[15px]">Get to know your cherished customers and their glow-up journey 💖</p>
 </div>
 
 

@@ -20,7 +20,7 @@ const Dashboard = () => {
 
       {/* Greeting */}
       <div className="bg-[#FFE4E1] poppins p-6 rounded-lg shadow">
-        <h1 className="text-[20px] md:text-[36px] font-bold text-[#B3446C] mb-1 md:mb-2">Welcome back, Beauty Boss 💄</h1>
+        <h1 className="text-[18px] md:text-[36px] font-bold text-[#B3446C] mb-2 md:mb-2">Welcome back, Beauty Boss 💄</h1>
         <p className="text-[#B3446C] text-[10px] md:text-[15px]">Here's a snapshot of your store's glam stats today ✨</p>
       </div>
 
