@@ -20,8 +20,8 @@ const Dashboard = () => {
 
       {/* Greeting */}
       <div className="bg-[#FFE4E1] poppins p-6 rounded-lg shadow">
-        <h1 className="text-3xl font-bold text-[#B3446C] mb-2">Welcome back, Beauty Boss 💄</h1>
-        <p className="text-[#B3446C]">Here's a snapshot of your store's glam stats today ✨</p>
+        <h1 className="text-[20px] md:text-[36px] font-bold text-[#B3446C] mb-1 md:mb-2">Welcome back, Beauty Boss 💄</h1>
+        <p className="text-[#B3446C] text-[10px] md:text-[15px]">Here's a snapshot of your store's glam stats today ✨</p>
       </div>
 
       {/* Revenue Chart */}
@@ -37,7 +37,7 @@ const Dashboard = () => {
                 </linearGradient>
               </defs>
               <XAxis dataKey="month" stroke="#fce7f3" />
-              <YAxis stroke="#f472b6" />
+              <YAxis stroke="#fce7f3" />
               <Tooltip />
               <Area type="monotone" dataKey="revenue" stroke="#f472b6" fillOpacity={1} fill="url(#revenueGradient)" />
             </AreaChart>
